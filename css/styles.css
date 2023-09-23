@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    color: #434455;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+/* 
+.list {
+    list-style: none;
+}
+*/
+
+/* ===HEADER=== */
+.header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+    color:  #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.header-logo-color {
+    color:#2e2f42;
+}
+
+.header-menu-list {
+    }
+
+.header-menu-item {
+    
+}
+
+.header-menu-link {
+    color:#2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-address {
+    color: #434455;
+    font-style: normal;
+}
+
+.header-address {
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-link {   
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header-address-link:hover {
+    color: #404bbf;
+} 
+
+.header-address-link:focus {
+    color: #404bbf;
+} 
+/* ===HEADER END=== */
+
+/* ===HERO (Section1)=== */
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: #4d5ae5;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    text-align: center;
+}
+.hero-btn > body {
+    font-family: "Roboto"; sans-serif;
+}
+
+.hero-btn:focus {
+    background-color: #404bbf;
+}
+
+.hero-btn:hover {
+    background-color: #404bbf;
+}
+/* ===HERO (Section1) END=== */
+
+/* ===ADVANTAGE (Section 2)=== */
+.advantages {
+}
+
+.advantages-list {
+}
+
+.advantages-item {
+}
+
+.advantages-subtitle {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-item-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ===ADVANTAGE (Section 2) END=== */
+
+/* ===TEAM (Section 3)=== */
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;        
+}
+
+.team-list {
+}
+
+.team-item { 
+    background-color: #FFFFFF;
+}
+
+.team-img {
+}
+
+.team-subtitle {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team-positiion {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ===TEAM (Section 3) END=== */
+
+/* ===PORTFOLIO (Section 4)=== */
+.portfolio {
+}
+
+.portfolio-title {
+    color: #2e2f42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfoloi-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-card {
+}
+
+.portfolio-subtitle {
+    color: #2e2f42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ===PORTFOLIO (Section 4) END=== */
+
+/* ===FOOTER=== */
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-logo {
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-color {
+    color: #f4f4fd;
+}
+
+.footer-text {
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+/* ===FOOTER END=== */
