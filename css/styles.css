@@ -8,40 +8,61 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+address {
+    font-style: normal;
 }
 
 .container {
-  width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0 auto;
-  outline: 2px solid red;
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  outline: 2px solid red; /* NB delete outline */
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
-/* 
-.list {
-    list-style: none;
-}
-*/
 
 /* ===HEADER=== */
 .header {
@@ -121,6 +142,8 @@ a {
 /* ===HERO (Section1)=== */
 .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 292px;
 }
 
 .hero-title {
@@ -141,7 +164,12 @@ a {
     letter-spacing: 0.04em;
     cursor: pointer;
     text-align: center;
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
 }
+
 .hero-btn > body {
     font-family: "Roboto"; sans-serif;
 }
@@ -157,6 +185,7 @@ a {
 
 /* ===ADVANTAGE (Section 2)=== */
 .advantages {
+    padding-bottom: 120px;
 }
 
 .advantages-list {
