@@ -70,7 +70,17 @@ address {
     padding-bottom: 24px;
 }
 
+.header-container {
+    display: flex;
+    align-items: center;
+    /* gap: 90px; */
+}
+
 .header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    gap: 90px;
 }
 
 .header-logo {
@@ -81,6 +91,8 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo-color {
@@ -88,6 +100,8 @@ address {
 }
 
 .header-menu-list {
+    display: flex;
+    gap: 40px;
     }
 
 .header-menu-item {
@@ -119,6 +133,8 @@ address {
 }
 
 .header-address-list {
+    display: flex;
+    gap: 40px;
 }
 
 .header-address-item {
