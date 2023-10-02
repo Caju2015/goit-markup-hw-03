@@ -64,10 +64,10 @@ address {
     overflow: hidden;
 }
 
-/* .section {
+.section {
     padding-top: 120px;
     padding-bottom: 120px;
-} */
+}
 
 /* ===HEADER=== */
 .header {
@@ -164,8 +164,6 @@ address {
 
 /* ===HERO (Section1)=== */
 .hero {
-    padding-top: 120px;
-    padding-bottom: 120px;
     }
 
 .hero-container {
@@ -183,7 +181,7 @@ address {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    max-width: 496px;
+    /* max-width: 496px; */
     margin-bottom: 48px;
 }
 
@@ -218,8 +216,6 @@ address {
 
 /* ===ADVANTAGE (Section 2)=== */
 .advantages {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .advantages-list {
@@ -250,8 +246,6 @@ address {
 
 /* ===TEAM (Section 3)=== */
 .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .team-container {
@@ -314,8 +308,6 @@ address {
 
 /* ===PORTFOLIO (Section 4)=== */
 .portfolio {
-    padding-top: 120px;
-    padding-bottom: 120px;
     border-bottom: 1px solid #E7E9FC;
 }
 
