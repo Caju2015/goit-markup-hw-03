@@ -111,7 +111,6 @@ address {
 }
 
 .header-menu-item {
-    padding: 24px 0;
 }
 
 .header-menu-link {
@@ -120,6 +119,7 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .header-menu-link:focus {
@@ -351,6 +351,7 @@ address {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -364,7 +365,6 @@ address {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 /* ===PORTFOLIO (Section 4) END=== */
 
