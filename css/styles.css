@@ -70,8 +70,6 @@ address {
 
 /* ===HEADER=== */
 .header {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -84,8 +82,7 @@ address {
 .header-navigation {
     display: flex;
     align-items: center;
-    flex-grow: 1;
-    gap: 90px;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -120,6 +117,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding: 24px 0;
+    display: block;
 }
 
 .header-menu-link:focus {
@@ -166,14 +164,16 @@ address {
 /* ===HERO (Section1)=== */
 .hero {
     padding: 188px 0;
+    background-color: #2e2f42;
 }
 
 .hero-container {
-    background-color: #2e2f42;
-    padding-top: 188px;
+    margin-right: auto;
+    margin-left: auto;
+    /* padding-top: 188px;
     padding-right: 472px;
     padding-bottom: 292px;
-    padding-left: 472px;
+    padding-left: 472px; */
 }
 
 .hero-title {
@@ -250,11 +250,11 @@ address {
 
 /* ===TEAM (Section 3)=== */
 .team {
+    background-color: #f4f4fd;
 }
 
 .team-container {
-    background-color: #f4f4fd;
-    padding-bottom: 120px;
+    /* padding-bottom: 120px; */
 }
 
 .team-title {
@@ -285,7 +285,7 @@ address {
 }
 
 .team-img {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .team-subtitle {
@@ -313,7 +313,7 @@ address {
 
 /* ===PORTFOLIO (Section 4)=== */
 .portfolio {
-    border-bottom: 1px solid #E7E9FC;
+    /* border-bottom: 1px solid #E7E9FC; */
 }
 
 .portfolio-title {
@@ -337,12 +337,12 @@ address {
 .portfolio-item {
     /* border: 1px solid #E7E9FC; */
     background-color: #FFF;
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
     width: calc((100% - 48px) / 3);
 }
 
 .portfolio-card {
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 
 .portfolio-subtitle {
@@ -371,10 +371,10 @@ address {
 /* ===FOOTER=== */
 .footer {
     padding: 100px 0;
+    background-color: #2e2f42;
 }
 
 .footer-container {
-    background-color: #2e2f42;
 }
 
 .footer-logo {
@@ -385,7 +385,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    padding-left: 156px;
+    /* padding-left: 156px; */
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -400,7 +400,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     /* max-width: 264px; */
-    padding-top: 16px;
-    padding-left: 156px;
+    /* padding-top: 16px;
+    padding-left: 156px; */
 }
 /* ===FOOTER END=== */
